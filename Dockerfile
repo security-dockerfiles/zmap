@@ -22,7 +22,7 @@ RUN apk update \
   && ln -s /usr/bin/yacc /usr/bin/byacc \
   && git clone --branch=master \
                --depth=1 \
-               https://github.com/zmap/zmap.git \
+               https://github.com/tumi8/zmap.git \
                \
   && cd zmap \
   && cmake . \
